@@ -19,7 +19,7 @@ function sumar()
 	resultado=numeroUno+numeroDos;
 	
    alert("el resultado es: "+resultado);
-/*
+	/*
 	var dato;
 
 	dato=parseInt(3);//ok
@@ -32,6 +32,6 @@ function sumar()
 	dato=parseInt(lalala);//error
 
     parceInt y sus posibles errores
-*/
+	*/
 }
 
