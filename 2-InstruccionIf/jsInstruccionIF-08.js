@@ -1,6 +1,8 @@
 function mostrar()
 {
-	/*Se pide ingresar una edad y un estado cicvil
+	/* ¡¡Agregado A!!
+	
+	Se pide ingresar una edad y un estado cicvil
 	a todos los mayores de edad, mostrar el mensaje "se responsable"
 	a todos los menores de edad, mostrar el mensaje "respeta a tus mayores"
 	a los adultos mayores( mas de 60 años) tambien informar "sos persona de riesgo"
@@ -19,7 +21,7 @@ function mostrar()
 
 	estadoDeCivil=estadoCivil.value;
 	
-	if(edadIngresada>18)
+	if(edadIngresada>17)
 	{
 		alert("Se responsable");
 	
@@ -36,33 +38,33 @@ function mostrar()
 			{
 				alert("a vivir la vida");
 			}
-			else
-			{
-				if(estadoDeCivil=="Divorciado")
-				{
-					alert("a intentarlo nuevamente");
-				}	
-			}
+			
 		}
 						
 	}
 	else
 	{
-		if(edadIngresada<18)
+		alert("Respeta a tus mayores");
+		
+		if(edadIngresada<13)
 		{
-			alert("Respeta a tus mayores");
-					
-			if(edadIngresada<13)
-			{
-				alert("hagan la tarea");
-			}
+			alert("Hagan la tarea");
+		}else
+		{
 			if(estadoDeCivil!="Soltero")
 			{
-				alert("es mu pequeño para no ser soltero");
+				alert("es muy pequeño para no ser soltero");
+			
 			}
 		}
+	}	
+		if(estadoDeCivil=="Divorciado")
+		{
+			alert("a intentarlo nuevamente");
+		}
 	
-	}		
+	
+
 	
 	
 	/*if(edadIngresada>60)
@@ -95,3 +97,13 @@ function mostrar()
 	}
 	*/
 }//FIN DE LA FUNCIÓN
+
+/* 
+else
+	{
+		if(estadoDeCivil=="Divorciado")
+		{
+			alert("a intentarlo nuevamente");
+		}	
+			
+*/
