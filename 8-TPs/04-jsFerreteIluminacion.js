@@ -73,7 +73,8 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
         }
         break;
     default:
-        porcentajeDeDescuento=50;    
+        porcentajeDeDescuento=50;
+        break;    
   }
     
     
